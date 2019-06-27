@@ -116,6 +116,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Kevin_s_Button__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Test for Copado</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Bite Me</inlineHelpText>
+        <label>Kevin&apos;s Button</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
