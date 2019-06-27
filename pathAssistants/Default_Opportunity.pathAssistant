@@ -14,7 +14,7 @@
     <pathAssistantSteps>
         <fieldNames>CloseDate</fieldNames>
         <fieldNames>Amount</fieldNames>
-        <info>&lt;img alt=&quot;User-added image&quot; src=&quot;http://kukulu--COTraining--c.cs98.content.force.com/servlet/rtaImage?eid=1CF1N000000ILx1&amp;amp;feoid=Info&amp;amp;refid=0EM1N000000wxZN&quot; style=&quot;height: 118px; width: 500px;&quot;&gt;&lt;/img&gt;</info>
+        <info>&lt;img alt=&quot;User-added image&quot; src=&quot;http://kukulu--UATKS--c.cs99.content.force.com/servlet/rtaImage?eid=1CF1N000000ILx1&amp;amp;feoid=Info&amp;amp;refid=0EM1N000000wxZN&quot; style=&quot;height: 118px; width: 500px;&quot;&gt;&lt;/img&gt;</info>
         <picklistValueName>Closed Won</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>

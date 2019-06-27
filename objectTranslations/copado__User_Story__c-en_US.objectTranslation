@@ -13,18 +13,6 @@
         <name>copado__Copado_Header_Fields</name>
     </fieldSets>
     <fieldSets>
-        <label><!-- Git Commit Header --></label>
-        <name>copado__Git_Commit_Header</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Mass Back Promote --></label>
-        <name>copado__Mass_Back_Promote</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Pipeline Manager Pending Approvals --></label>
-        <name>copado__Pipeline_Manager_Pending_Approvals</name>
-    </fieldSets>
-    <fieldSets>
         <label><!-- Promotion Related List --></label>
         <name>copado__PromotionRelatedList</name>
     </fieldSets>
@@ -35,10 +23,6 @@
     <fieldSets>
         <label><!-- Sprint Wall Columns --></label>
         <name>copado__Sprint_Wall_Columns</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- User Story Waiting Page --></label>
-        <name>copado__User_Story_Waiting_Page</name>
     </fieldSets>
     <fieldSets>
         <label><!-- Work Manager Columns --></label>
@@ -156,10 +140,6 @@
         <name>copado__Documentation_Complete__c</name>
     </fields>
     <fields>
-        <label><!-- Environment Type --></label>
-        <name>copado__Environment_Type__c</name>
-    </fields>
-    <fields>
         <label><!-- Environment --></label>
         <name>copado__Environment__c</name>
         <relationshipLabel><!-- User Stories --></relationshipLabel>
@@ -202,10 +182,6 @@
     <fields>
         <label><!-- Last Compliance Scan Date --></label>
         <name>copado__Last_Compliance_Scan_Date__c</name>
-    </fields>
-    <fields>
-        <label><!-- Last Promotion Date --></label>
-        <name>copado__Last_Promotion_Date__c</name>
     </fields>
     <fields>
         <label><!-- Last Validation Deployment Status --></label>

@@ -221,6 +221,7 @@
         <externalId>false</externalId>
         <label>Git Repository</label>
         <referenceTo>copado__Git_Repository__c</referenceTo>
+        <relationshipLabel>Deployment Flows</relationshipLabel>
         <relationshipName>Deployment_Flows</relationshipName>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -301,12 +302,12 @@
     <fields>
         <fullName>copado__Manage_Branches__c</fullName>
         <deprecated>false</deprecated>
-        <description>Link to open the Pipeline Manager to promote and back promote User Stories.</description>
+        <description>Link to open the Branch and Environment Management page for the Deployment Flow.</description>
         <externalId>false</externalId>
         <formula>HYPERLINK(&apos;/apex/&apos;&amp;
 IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,
   IF(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c)
-)&amp;IF( ISPICKVAL(copado__Calculate_Based_on__c, &apos;User Story&apos;), IF( copado__Active__c,&apos;PipelineManager?id=&apos;&amp;Id, &apos;PipelineDiagram?id=&apos;&amp;Id), &apos;BranchManagement?id=&apos;&amp;Id), &apos;Pipeline Manager&apos;, &apos;_blank&apos;)</formula>
+)&amp;&apos;BranchManagement?id=&apos;&amp;Id, &apos;Release Management Page&apos;, &apos;_blank&apos;)</formula>
         <label>Manage Releases</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -363,13 +364,14 @@ This value will prefill the order by field on related Promotion record creation 
         <externalId>false</externalId>
         <label>Static Code Analysis Settings</label>
         <referenceTo>copado__Static_Code_Analysis_Settings__c</referenceTo>
+        <relationshipLabel>Deployment Flows</relationshipLabel>
         <relationshipName>Deployment_Flows</relationshipName>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <label>Pipeline</label>
+    <label>Deployment Flow</label>
     <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
@@ -384,11 +386,11 @@ This value will prefill the order by field on related Promotion record creation 
         <language>en_US</language>
     </listViews>
     <nameField>
-        <label>Pipeline Name</label>
+        <label>Deployment Flow Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Pipelines</pluralLabel>
+    <pluralLabel>Deployment Flows</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>copado__Active__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>copado__Manage_Branches__c</customTabListAdditionalFields>
@@ -439,10 +441,7 @@ This value will prefill the order by field on related Promotion record creation 
         <protected>false</protected>
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
-        <url>/apex/{!
-IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;, &apos;copado__&apos;) &amp; 
-IF( 
-ISPICKVAL(copado__Deployment_Flow__c.copado__Calculate_Based_on__c, &apos;User Story&apos;),   IF( copado__Deployment_Flow__c.copado__Active__c , &apos;PipelineManager&apos;, &apos;PipelineDiagram&apos;) , &apos;BranchManagement&apos;)}?Id={!copado__Deployment_Flow__c.Id}</url>
+        <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&apos;none&apos;,&apos;&apos;,&apos;copado__&apos;)}BranchManagement?id={!copado__Deployment_Flow__c.Id}</url>
     </webLinks>
     <webLinks>
         <fullName>copado__Manage_Environment_Variables</fullName>

@@ -5,11 +5,11 @@
     <issuer>http://sts.manulife.com/adfs/services/trust</issuer>
     <loginUrl>https://sts.manulife.com/adfs/ls</loginUrl>
     <name>SSO_Kukulu</name>
-    <oauthTokenEndpoint>https://kukulu--COTraining.cs98.my.salesforce.com/services/oauth2/token?so=00D0i0000008o6q</oauthTokenEndpoint>
+    <oauthTokenEndpoint>https://kukulu--UATKS.cs99.my.salesforce.com/services/oauth2/token?so=00D1f0000008wnL</oauthTokenEndpoint>
     <redirectBinding>true</redirectBinding>
     <requestSignatureMethod>1</requestSignatureMethod>
     <requestSigningCertId>0P10A00000000es</requestSigningCertId>
-    <salesforceLoginUrl>https://kukulu--COTraining.cs98.my.salesforce.com?so=00D0i0000008o6q</salesforceLoginUrl>
+    <salesforceLoginUrl>https://kukulu--UATKS.cs99.my.salesforce.com?so=00D1f0000008wnL</salesforceLoginUrl>
     <samlEntityId>https://kukulu.lightning.force.com</samlEntityId>
     <samlVersion>SAML2_0</samlVersion>
     <userProvisioning>false</userProvisioning>
