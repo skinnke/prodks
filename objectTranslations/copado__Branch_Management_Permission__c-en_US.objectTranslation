@@ -7,11 +7,11 @@
     <fields>
         <label><!-- Environment --></label>
         <name>copado__Environment__c</name>
-        <relationshipLabel><!-- Pipeline Permissions --></relationshipLabel>
+        <relationshipLabel><!-- Branch Management Permissions --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- User --></label>
         <name>copado__User__c</name>
-        <relationshipLabel><!-- Pipeline Permissions --></relationshipLabel>
+        <relationshipLabel><!-- Branch Management Permissisions --></relationshipLabel>
     </fields>
 </CustomObjectTranslation>

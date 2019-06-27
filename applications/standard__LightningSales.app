@@ -32,8 +32,6 @@
     <tabs>standard-Task</tabs>
     <tabs>standard-File</tabs>
     <tabs>standard-Quote</tabs>
-    <tabs>copado__Pipeline_Manager</tabs>
-    <tabs>copado__Deployment_Flow__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sales_UtilityBar</utilityBar>
 </CustomApplication>

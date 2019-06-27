@@ -71,7 +71,7 @@
     <fields>
         <label><!-- Git Repository --></label>
         <name>copado__Git_Repository__c</name>
-        <relationshipLabel><!-- Pipelines --></relationshipLabel>
+        <relationshipLabel><!-- Deployment Flows --></relationshipLabel>
     </fields>
     <fields>
         <help><!-- Tabs to hide in Branch Management detail window --></help>
@@ -140,7 +140,7 @@ This value will prefill the order by field on related Promotion record creation 
     <fields>
         <label><!-- Static Code Analysis Settings --></label>
         <name>copado__Static_Code_Analysis_Settings__c</name>
-        <relationshipLabel><!-- Pipelines --></relationshipLabel>
+        <relationshipLabel><!-- Deployment Flows --></relationshipLabel>
     </fields>
     <webLinks>
         <label><!-- Find_Replace_Rule_Editor --></label>

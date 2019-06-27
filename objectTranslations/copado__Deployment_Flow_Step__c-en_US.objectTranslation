@@ -17,9 +17,9 @@
         <name>copado__Commits_Behind__c</name>
     </fields>
     <fields>
-        <label><!-- Pipeline --></label>
+        <label><!-- Deployment Flow --></label>
         <name>copado__Deployment_Flow__c</name>
-        <relationshipLabel><!-- Pipeline Connections --></relationshipLabel>
+        <relationshipLabel><!-- Deployment Flow Steps --></relationshipLabel>
     </fields>
     <fields>
         <help><!-- This is the Git branch linked to the destination environment. This Git branch is defined in another deployment flow step record where the current destination environment is the source environment. --></help>
@@ -29,7 +29,7 @@
     <fields>
         <label><!-- Destination Environment --></label>
         <name>copado__Destination_Environment__c</name>
-        <relationshipLabel><!-- Pipeline Connections (Destination Environment) --></relationshipLabel>
+        <relationshipLabel><!-- Deployment Flow Steps (Destination Environment) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Enable as Scratch Org Target --></label>
@@ -75,7 +75,7 @@
     <fields>
         <label><!-- Source Environment --></label>
         <name>copado__Source_Environment__c</name>
-        <relationshipLabel><!-- Pipeline Connections (Source Environment) --></relationshipLabel>
+        <relationshipLabel><!-- Deployment Flow Steps --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Sync Merge State --></label>
